@@ -3,64 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cusstomers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Customers</title>
   </head>
   <body>
     <!-- #region Header -->
-    <header>
-      <nav>
-        <a href="./index.html"><img src="./images/logo.png" alt="logo" />Product</a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+     <header class="header">
+      <nav class="header-nav">
+        <a href="./index.html" class="header-nav-link"
+          ><img src="./images/logo.png" alt="logo" class="header-nav-img" />Product</a
+        >
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
+            <a href="./index.html" class="header-nav-list-link">Product</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="./pricing.html" class="header-nav-list-link">Pricing</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="./customers.html" class="header-nav-list-link">Customers</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="" class="header-nav-list-link">Resources</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sing in</button></li>
-        <li><button type="button">Sing up</button></li>
+      <ul class="header-buttons">
+        <li class="header-buttons-list-item">
+          <button type="button" class="header-buttons-list-btn">Sing in</button>
+        </li>
+        <li class="header-buttons-list-item">
+          <button type="button" class="header-buttons-list-btn">Sing up</button>
+        </li>
       </ul>
     </header>
     <!-- #endregion Header -->
     <main>
       <!-- #region Clients -->
-      <section>
-        <h1>Our Clients</h1>
-        <ul>
-          <li><img src="images/clientslogo/Airbnb Logo.png" alt="Airbnb" /></li>
-          <li><img src="images/clientslogo/Google Logo.png" alt="Google" /></li>
-          <li><img src="images/clientslogo/Microsoft Logo.png" alt="Microsoft" /></li>
-          <li><img src="images/clientslogo/FedEx Logo.png" alt="FedEx" /></li>
+      <section class="customers-clients-section">
+        <h1 class="customers-clients-hero">Our Clients</h1>
+        <ul class="customers-clients-list">
+          <li class="customers-clients-list-item"><img src="images/clientslogo/Airbnb Logo.png" alt="Airbnb"  class="customers-clients-list-item-img"/></li>
+          <li class="customers-clients-list-item"><img src="images/clientslogo/Google Logo.png" alt="Google"  class="customers-clients-list-item-img"/></li>
+          <li class="customers-clients-list-item"><img src="images/clientslogo/Microsoft Logo.png" alt="Microsoft"  class="customers-clients-list-item-img"/></li>
+          <li class="customers-clients-list-item"><img src="images/clientslogo/FedEx Logo.png" alt="FedEx"  class="customers-clients-list-item-img"/></li>
         </ul>
       </section>
       <!-- #endregion Clients -->
 
       <!--#region Product?  -->
-      <section>
-        <h2>Why Choose Product?</h2>
-        <ul>
-          <li>
-            <h3>Special Business</h3>
-            <p>
+      <section class="customers-product-section">
+        <h2 class="customers-product-heading">Why Choose Product?</h2>
+        <ul class="customers-product-list">
+          <li class="customers-product-list-item">
+            <h3 class="customers-product-list-item-heading">Special Business</h3>
+            <p class="customers-product-list-item-paragraph">
               Product helps you see how many more days you need to work to reach your financial goal
               for the month and year. Product helps you see how many more days you need to work to
               reach your financial goal for the month and year. Product helps you see how many more
               days you need to work to reach your financial goal for the month and year.
             </p>
           </li>
-          <li>
-            <h3>Instant Result</h3>
-            <p>
+          <li class="customers-product-list-item">
+            <h3 class="customers-product-list-item-heading">Instant Result</h3>
+            <p class="customers-product-list-item-paragraph">
               Product helps you see how many more days you need to work to reach your financial goal
               for the month and year. Product helps you see how many more days you need to work to
               reach your financial goal for the month and year. Product helps you see how many more
               days you need to work to reach your financial goal for the month and year.
             </p>
           </li>
-          <li>
-            <h3>Fastest way to organize</h3>
-            <p>
+          <li class="customers-product-list-item">
+            <h3 class="customers-product-list-item-heading">Fastest way to organize</h3>
+            <p class="customers-product-list-item-paragraph">
               Product helps you see how many more days you need to work to reach your financial goal
               for the month and year. Product helps you see how many more days you need to work to
               reach your financial goal for the month and year. Product helps you see how many more
@@ -72,103 +95,104 @@
       <!--#endregion Product?  -->
 
       <!-- #region Work? -->
-      <section>
-        <h2>How Product Work?</h2>
-        <ul>
-          <li>
-            <img src="images/macs/mac1.png" alt="Macbook 1" width="500" />
-            <p>STEP 1</p>
-            <h3>Apply for a product</h3>
-            <p>
+      <section class="customers-work-section">
+        <h2 class="customers-work-heading">How Product Work?</h2>
+        <ul class="customers-work-list">
+          <li class="customers-work-list-item">
+            <img src="images/macs/mac1.png" alt="Macbook 1" width="500" class="customers-work-list-img"/>
+            <p class="customers-work-list-text-step">STEP 1</p>
+            <h3 class="customers-work-list-heading">Apply for a product</h3>
+            <p class="customers-work-list-paragraph">
               Completing our easy step-by-step application form gives you access to multiple
               business with multiple products. We analyse your business through our proprietary
               credit analysis technology
             </p>
           </li>
-          <li>
-            <img src="images/macs/mac2.png" alt="Macbook 2" width="500" />
-            <p>STEP 2</p>
-            <h3>Pay fully refundable</h3>
-            <p>
+          <li class="customers-work-list-item">
+            <img src="images/macs/mac2.png" alt="Macbook 2" width="500" class=""/>
+            <p class="customers-work-list-text-step">STEP 2</p>
+            <h3 class="customers-work-list-heading">Pay fully refundable</h3>
+            <p class="customers-work-list-paragraph">
               Product will contactting you instantly to receive payment of the Application Fee. if
               no offer of product is available, your fee will be fully refunded.
             </p>
           </li>
-          <li>
-            <img src="images/macs/mac3.png" alt="Macbook 3" width="500" />
-            <p>STEP 3</p>
-            <h3>Completion</h3>
-            <p>
+          <li class="customers-work-list-item">
+            <img src="images/macs/mac3.png" alt="Macbook 3" width="500" class=""/>
+            <p class="customers-work-list-text-step">STEP 3</p>
+            <h3 class="customers-work-list-heading">Completion</h3>
+            <p class="customers-work-list-paragraph">
               Product will continue to liase between borrower and manager to procees and complete a
               quick and efficient settlement
             </p>
           </li>
         </ul>
-        <button type="button">Get in touch with us</button>
+        <button type="button" class="customers-work-button">Get in touch with us</button>
       </section>
       <!-- #endregion Work? -->
 
       <!--#region Join  -->
-      <section>
-        <h2>Join thousand of other who have already received offers</h2>
-        <ul>
-          <li>
-            <img src="images/page2grap/business.png" alt="business" />
-            <h3>Business</h3>
-            <ul>
-              <li>Cash Flow</li>
-              <li>Asset Backed</li>
-              <li>Receivables Finance</li>
+      <section class="customers-join-section">
+        <h2 class="customers-join-heading">Join thousand of other who have already received offers</h2>
+        <ul class="customers-join-list">
+          <li class="customers-join-list-item">
+            <img src="images/page2grap/business.png" alt="business" class="customers-join-list-item-img"/>
+            <h3 class="customers-join-list-item-heading">Business</h3>
+            <ul class="customers-join-list-item-ul">
+              <li class="customers-join-list-item-ul-li">Cash Flow</li>
+              <li class="customers-join-list-item-ul-li">Asset Backed</li>
+              <li class="customers-join-list-item-ul-li">Receivables Finance</li>
             </ul>
             <p>Find the best business product</p>
           </li>
-          <li>
-            <img src="images/page2grap/enterprise.png" alt="enterprise" />
-            <h3>Enterprise</h3>
-            <ul>
-              <li>Site Acquisition</li>
-              <li>Bridge</li>
-              <li>Development Financing</li>
+          <li class="customers-join-list-item">
+            <img src="images/page2grap/enterprise.png" alt="enterprise" class=""/>
+            <h3 class="customers-join-list-item-heading">Enterprise</h3>
+            <ul class="customers-join-list-item-ul">
+              <li class="customers-join-list-item-ul-li">Site Acquisition</li>
+              <li class="customers-join-list-item-ul-li">Bridge</li>
+              <li class="customers-join-list-item-ul-li">Development Financing</li>
             </ul>
-            <p>Find the best business product</p>
+            <p class="custoemrs-join-button">Find the best business product</p>
           </li>
         </ul>
       </section>
       <!--#endregion Join  -->
       <!-- #region Promo -->
-      <section>
-        <h2>Join 100 Compannies who boost their business with Product</h2>
-        <button type="button">Get This</button>
-        <img src="images/graphics.png " alt="graphics" width="351" height="331" />
+      <section class="customers-promo-section">
+        <h2 class="customers-promo-heading">Join 100 Compannies who boost their business with Product</h2>
+        <button type="button" class="customers-promo-button">Get This</button>
+        <img src="images/graphics.png " alt="graphics" width="351" height="331" class="customers-promo-img"/>
       </section>
       <!-- #endregion Promo -->
     </main>
-    <!-- #region footer -->
-    <footer>
-      <nav>
-        <a href="./index.html"><img src="images/logo.png" alt="logo" /> Product</a>
-        <ul>
-          <li>
-            <h3>Resource</h3>
-            <ul>
-              <li>About Us</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>FAQ</li>
+      <!-- #region footer -->
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a href="./index.html"
+          ><img src="images/logo.png" alt="logo" class="footer-link" /> Product</a
+        >
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <h3 class="footer-list-item-heading">Resource</h3>
+            <ul class="footer-list-item-ul">
+              <li class="footer-list-item-ul-li">About Us</li>
+              <li class="footer-list-item-ul-li">Blog</li>
+              <li class="footer-list-item-ul-li">Contact</li>
+              <li class="footer-list-item-ul-li">FAQ</li>
             </ul>
           </li>
-          <li>
-            <h3>Legal Stuff</h3>
-            <ul>
-              <li>Disclaimer</li>
-              <li>Financing</li>
-              <li>Privacy Policy</li>
+          <li class="footer-list-item">
+            <h3 class="footer-list-item-heading">Legal Stuff</h3>
+            <ul class="footer-list-item-ul">
+              <li class="footer-list-item-ul-li">Disclaimer</li>
+              <li class="footer-list-item-ul-li">Financing</li>
+              <li class="footer-list-item-ul-li">Privacy Policy</li>
             </ul>
           </li>
         </ul>
       </nav>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      <p class="rights-text">Made With Love By Figmaland All Right Reserved</p>
     </footer>
     <!-- #endregion footer -->
-  </body>
 </html>

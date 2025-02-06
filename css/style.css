@@ -1,0 +1,410 @@
+/* Index HTML */
+/* #region Header */
+.header {
+}
+.header-nav {
+}
+.header-nav-link {
+}
+.header-nav-img {
+}
+.header-nav-list {
+}
+.header-nav-list-item {
+}
+.header-nav-list-link {
+}
+.header-buttons {
+}
+.header-buttons-list-item {
+}
+.header-buttons-list-btn {
+}
+/* #endregion Header*/
+
+/* #region Sect1*/
+.hero-section {
+}
+.hero {
+}
+.hero-text {
+}
+.hero-buttons {
+}
+.hero-buttons-list {
+}
+.hero-buttons-btn {
+}
+.hero-img {
+}
+/* #endregion Sect1*/
+
+/* #region Sect2*/
+.product-section {
+}
+.product-heading {
+}
+.product-list {
+}
+.product-list-item {
+}
+.product-list-heading {
+}
+.product-list-text {
+}
+.product-button {
+}
+
+/* #endregion Sect2*/
+
+/* #region Sect3*/
+.management-section {
+}
+.management-heading {
+}
+.management-text {
+}
+.management-list {
+}
+.management-list-item {
+}
+.management-list-item-heading {
+}
+.management-list-item-text {
+}
+.management-img {
+}
+
+/* #endregion Sect3*/
+
+/* #region Sect4*/
+.support-section {
+}
+.support-heading {
+}
+.support-text {
+}
+.support-list {
+}
+.support-list-item {
+}
+.support-img {
+}
+/* #endregion Sect4*/
+
+/* #region Sect5*/
+.collaboration-section {
+}
+.collaboration-heading {
+}
+.collaboration-text {
+}
+.collaboration-list {
+}
+.collaboration-list-item {
+}
+.collaboration-list-item-heading {
+}
+.collaboration-list-item-text {
+}
+.collaboration-img {
+}
+/* #endregion Sect5*/
+
+/* #region Sect6*/
+.process-section {
+}
+.process-heading {
+}
+.process-text {
+}
+.process-list {
+}
+.process-list-item {
+}
+.process-list-img {
+}
+.process-list-text {
+}
+.process-button {
+}
+/* #endregion Sect6*/
+
+/* #region Sect7*/
+.strategy-section {
+}
+.strategy-heading {
+}
+.strategy-text {
+}
+.strategy-list {
+}
+.strategy-list-item {
+}
+.strategy-list-item-img {
+}
+.strategy-list-item-text {
+}
+.strategy-list-item-heading {
+}
+.strategy-list-span {
+}
+/* #endregion Sect7*/
+
+/* #region Sect8*/
+.price-section {
+}
+.price-heading {
+}
+.price-text {
+}
+.price-list {
+}
+.price-list-item {
+}
+.price-list-item-heading {
+}
+.price-list-item-text {
+}
+.price-list-item-month {
+}
+.price-list-item-ul {
+}
+.price-list-item-ul-li {
+}
+.price-list-item-button {
+}
+/* #endregion Sect8*/
+
+/* #region Sect9*/
+.clients-section {
+}
+.clients-heading {
+}
+.clients-text {
+}
+.clients-list {
+}
+.clients-list-item {
+}
+.clients-list-item-stars {
+}
+.clients-list-item-text {
+}
+.clients-list-item-photo {
+}
+.clients-list-item-creator {
+}
+.clients-list-item-span {
+}
+.clients-list-item-designer-text {
+}
+
+/* #endregion Sect9*/
+
+/* #region Sect10*/
+.graphics-section {
+}
+.graphics-heading {
+}
+.graphics-btn {
+}
+.graphics-img {
+}
+/* #endregion Sect10*/
+
+/* #region Footer*/
+.footer {
+}
+.footer-nav {
+}
+.footer-link {
+}
+.footer-list {
+}
+.footer-list-item {
+}
+.footer-list-item-heading {
+}
+.footer-list-item-ul {
+}
+.footer-list-item-ul-li {
+}
+.rights-text {
+}
+/* #endregion Footer*/
+
+/* Customers HTML */
+/* #region Clients */
+.customers-clients-section {
+}
+.customers-clients-hero {
+}
+.customers-clients-list {
+}
+.customers-clients-list-item {
+}
+.customers-clients-list-item-img {
+}
+
+/* #endregion Customers*/
+
+/* #region Product*/
+.customers-product-section {
+}
+.customers-product-heading {
+}
+.customers-product-list {
+}
+.customers-product-list-item {
+}
+.customers-product-list-item-heading {
+}
+.customers-product-list-item-paragraph {
+}
+
+/* #endregion Product*/
+
+/* #region Work*/
+.customers-work-section {
+}
+.customers-work-heading {
+}
+.customers-work-list {
+}
+.customers-work-list-item {
+}
+.customers-work-list-img {
+}
+.customers-work-list-text-step {
+}
+.customers-work-list-heading {
+}
+.customers-work-list-paragraph {
+}
+.customers-work-button {
+}
+
+/* #endregion Work*/
+
+/* #region Join*/
+.customers-join-section {
+}
+.customers-join-heading {
+}
+.customers-join-list {
+}
+.customers-join-list-item {
+}
+.customers-join-list-item-img {
+}
+.customers-join-list-item-heading {
+}
+.customers-join-list-item-ul {
+}
+.customers-join-list-item-ul-li {
+}
+.custoemrs-join-button {
+}
+/* #endregion Join*/
+
+/* #region Promo*/
+.customers-promo-section {
+}
+.customers-promo-heading {
+}
+.customers-promo-button {
+}
+.customers-promo-img {
+}
+/* #endregion Promo*/
+
+/* Pricing HTML */
+/* #region Price */
+.price-section {
+}
+.price-pricing-heading {
+}
+.price-heading {
+}
+.price-text {
+}
+.price-list {
+}
+.price-list-item {
+}
+.price-list-item-heading {
+}
+.price-list-item-text {
+}
+.price-list-item-month {
+}
+.price-list-item-ul {
+}
+.price-list-item-ul-li {
+}
+.price-list-item-button {
+}
+/* #endregion Price*/
+
+/* #region Enterprise*/
+.pricing-enterprise {
+}
+.pricing-enterprise-heading-enterprise {
+}
+.pricing-enterprise-headnig {
+}
+.pricing-enterprise-text {
+}
+.pricing-enterprise-button {
+}
+
+/* #endregion Enterprise*/
+
+/* #region Used*/
+.pricing-used-section {
+}
+.pricing-used-heading {
+}
+.pricing-used-img {
+}
+.pricing-used-list {
+}
+.pricing-used-list-item {
+}
+.pricing-used-list-item-heading {
+}
+.pricing-used-list-item-text {
+}
+
+/* #endregion Used*/
+
+/* #region Question*/
+.pricing-question {
+}
+.pricing-question-heading {
+}
+.pricing-question-text {
+}
+.pricing-question-list {
+}
+.pricing-question-list-item {
+}
+.pricing-question-list-item-questions {
+}
+.pricing-question-list-item-answer {
+}
+
+/* #endregion Question*/
+
+/* #region Promo*/
+.pricing-promo {
+}
+.pricing-promo-heading {
+}
+.pricing-promo-button {
+}
+.pricing-promo-img {
+}
+
+/* #endregion Promo*/

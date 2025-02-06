@@ -3,101 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Pricing</title>
   </head>
   <body>
     <!-- #region Header -->
-    <header>
-      <nav>
-        <a href="./index.html"><img src="./images/logo.png" alt="logo" />Product</a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a href="./index.html" class="header-nav-link"
+          ><img src="./images/logo.png" alt="logo" class="header-nav-img" />Product</a
+        >
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
+            <a href="./index.html" class="header-nav-list-link">Product</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="./pricing.html" class="header-nav-list-link">Pricing</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="./customers.html" class="header-nav-list-link">Customers</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="" class="header-nav-list-link">Resources</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sing in</button></li>
-        <li><button type="button">Sing up</button></li>
+      <ul class="header-buttons">
+        <li class="header-buttons-list-item">
+          <button type="button" class="header-buttons-list-btn">Sing in</button>
+        </li>
+        <li class="header-buttons-list-item">
+          <button type="button" class="header-buttons-list-btn">Sing up</button>
+        </li>
       </ul>
     </header>
     <!-- #endregion Header -->
 
     <main>
       <!-- #region Pricing -->
-      <section>
-        <h3>PRICING</h3>
-        <h1>Let’s get some real work done here.</h1>
-        <p>Prodict is your perfect solution for working. Get started now for free</p>
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <p>0 $ Per / month</p>
-            <ul>
-              <li>Only 2 Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
-              <button type="button">Order Now</button>
+      <section class="price-section">
+        <h3 class="price-pricing-heading">PRICING</h3>
+        <h1 class="price-heading">Let’s get some real work done here.</h1>
+        <p class="price-text">
+          Prodict is your perfect solution for working. Get started now for free
+        </p>
+        <ul class="price-list">
+          <li class="price-list-item">
+            <h3 class="price-list-item-heading">Free</h3>
+            <p class="price-list-item-text">Brief price description</p>
+            <p class="price-list-item-month">0 $ Per / month</p>
+            <ul class="price-list-item-ul">
+              <li class="price-list-item-ul-li">Only 2 Operators</li>
+              <li class="price-list-item-ul-li">Notifications</li>
+              <li class="price-list-item-ul-li">Landing Pages</li>
+              <button type="button" class="price-list-item-button">Order Now</button>
             </ul>
           </li>
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
-            <p>5 $ Per / month</p>
-            <ul>
-              <li>5+ Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
+          <li class="price-list-item">
+            <h3 class="price-list-item-heading">Standard</h3>
+            <p class="price-list-item-text">Brief price description</p>
+            <p class="price-list-item-month">5 $ Per / month</p>
+            <ul class="price-list-item-ul">
+              <li class="price-list-item-ul-li">5+ Operators</li>
+              <li class="price-list-item-ul-li">Notifications</li>
+              <li class="price-list-item-ul-li">Landing Pages</li>
             </ul>
-            <button type="button">Order Now</button>
+            <button type="button" class="price-list-item-button">Order Now</button>
           </li>
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <p>10 $ Per / month</p>
-            <ul>
-              <li>10+ Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
+          <li class="price-list-item">
+            <h3 class="price-list-item-heading">Premium</h3>
+            <p class="price-list-item-text">Brief price description</p>
+            <p class="price-list-item-month">10 $ Per / month</p>
+            <ul class="price-list-item-ul">
+              <li class="price-list-item-ul-li">10+ Operators</li>
+              <li class="price-list-item-ul-li">Notifications</li>
+              <li class="price-list-item-ul-li">Landing Pages</li>
             </ul>
-            <button type="button">Order Now</button>
+            <button type="button" class="price-list-item-button">Order Now</button>
           </li>
         </ul>
       </section>
       <!-- #endregion Pricing -->
 
       <!-- #region Enterprise -->
-      <section>
-        <h3>ENTERPRISE</h3>
-        <h2>Are you interested in a custom-tailored plan?</h2>
-        <p>Product is a set of advanced features for really large teams with projects.</p>
-        <button>Get in touch with us</button>
+      <section class="pricing-enterprise">
+        <h3 class="pricing-enterprise-heading-enterprise">ENTERPRISE</h3>
+        <h2 class="pricing-enterprise-headnig">Are you interested in a custom-tailored plan?</h2>
+        <p class="pricing-enterprise-text">
+          Product is a set of advanced features for really large teams with projects.
+        </p>
+        <button type="button" class="pricing-enterprise-button">Get in touch with us</button>
       </section>
       <!-- #endregion Enterprise -->
 
       <!-- #region Used -->
-      <section>
-        <h2>Product is being used with great effects alongside:</h2>
-        <img src="images/amico.png" alt="graphics" />
-        <ul>
-          <li>
-            <h3>Enterpreneur</h3>
-            <p>
+      <section class="pricing-used-section">
+        <h2 class="pricing-used-heading">Product is being used with great effects alongside:</h2>
+        <img src="images/amico.png" alt="graphics" class="pricing-used-img" />
+        <ul class="pricing-used-list">
+          <li class="pricing-used-list-item">
+            <h3 class="pricing-used-list-item-heading">Enterpreneur</h3>
+            <p class="pricing-used-list-item-text">
               Product is a great way to help medium and samall enterprise owners achieve their goals
             </p>
           </li>
-          <li>
-            <h3>Accountants</h3>
-            <p>
+          <li class="pricing-used-list-item">
+            <h3 class="pricing-used-list-item-heading">Accountants</h3>
+            <p class="pricing-used-list-item-text">
               Whether you are working on contract with clients, or on other key accounting
               documents, Product is for you
             </p>
           </li>
-          <li>
-            <h3>Universities</h3>
-            <p>Organize university projects and have documents easily graded online with Product</p>
+          <li class="pricing-used-list-item">
+            <h3 class="pricing-used-list-item-heading">Universities</h3>
+            <p class="pricing-used-list-item-text">
+              Organize university projects and have documents easily graded online with Product
+            </p>
           </li>
         </ul>
       </section>
@@ -105,59 +133,79 @@
       <!-- #endregion Used -->
 
       <!-- #region Question -->
-      <section>
-        <h2>Frequently asked question</h2>
-        <p>Something is not clear? You need help? Check our FAQ section</p>
-        <ul>
-          <li><p>What are my payment option?</p></li>
-          <li>
-            <p>How can I invite collaborator to platform?</p>
-            <p>
+      <section class="pricing-question">
+        <h2 class="pricing-question-heading">Frequently asked question</h2>
+        <p class="pricing-question-text">
+          Something is not clear? You need help? Check our FAQ section
+        </p>
+        <ul class="pricing-question-list">
+          <li class="pricing-question-list-item">
+            <p class="pricing-question-list-item-questions">What are my payment option?</p>
+          </li>
+          <li class="pricing-question-list-item">
+            <p class="pricing-question-list-item-questions">
+              How can I invite collaborator to platform?
+            </p>
+            <p class="pricing-question-list-item-answer">
               After creating your account you will have an oppurtunity to create your first project
               that will be associated withthe collaborators e-mail. An invitation will be sent
               automatically. Then, invited user will have to confirm his account by e-mail and
               finish userd onboarding.
             </p>
           </li>
-          <li><p>Can I upgrade my plan?</p></li>
-          <li><p>Can I cancel my plan at anytime?</p></li>
+          <li class="pricing-question-list-item">
+            <p class="pricing-question-list-item-questions">Can I upgrade my plan?</p>
+          </li>
+          <li class="pricing-question-list-item">
+            <p class="pricing-question-list-item-questions">Can I cancel my plan at anytime?</p>
+          </li>
         </ul>
       </section>
       <!-- #endregion Question -->
       <!-- #region Promo -->
-      <section>
-        <h2>Join 100 Compannies who boost their business with Product</h2>
-        <button type="button">Get This</button>
-        <img src="images/graphics.png " alt="graphics" width="351" height="331" />
+      <section class="pricing-promo">
+        <h2 class="pricing-promo-heading">
+          Join 100 Compannies who boost their business with Product
+        </h2>
+        <button type="button" class="pricing-promo-button">Get This</button>
+        <img
+          src="images/graphics.png "
+          alt="graphics"
+          width="351"
+          height="331"
+          class="pricing-promo-img"
+        />
       </section>
       <!-- #endregion Promo -->
     </main>
 
     <!-- #region footer -->
-    <footer>
-      <nav>
-        <a href="./index.html"><img src="images/logo.png" alt="logo" /> Product</a>
-        <ul>
-          <li>
-            <h3>Resource</h3>
-            <ul>
-              <li>About Us</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>FAQ</li>
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a href="./index.html"
+          ><img src="images/logo.png" alt="logo" class="footer-link" /> Product</a
+        >
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <h3 class="footer-list-item-heading">Resource</h3>
+            <ul class="footer-list-item-ul">
+              <li class="footer-list-item-ul-li">About Us</li>
+              <li class="footer-list-item-ul-li">Blog</li>
+              <li class="footer-list-item-ul-li">Contact</li>
+              <li class="footer-list-item-ul-li">FAQ</li>
             </ul>
           </li>
-          <li>
-            <h3>Legal Stuff</h3>
-            <ul>
-              <li>Disclaimer</li>
-              <li>Financing</li>
-              <li>Privacy Policy</li>
+          <li class="footer-list-item">
+            <h3 class="footer-list-item-heading">Legal Stuff</h3>
+            <ul class="footer-list-item-ul">
+              <li class="footer-list-item-ul-li">Disclaimer</li>
+              <li class="footer-list-item-ul-li">Financing</li>
+              <li class="footer-list-item-ul-li">Privacy Policy</li>
             </ul>
           </li>
         </ul>
       </nav>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      <p class="rights-text">Made With Love By Figmaland All Right Reserved</p>
     </footer>
     <!-- #endregion footer -->
   </body>
