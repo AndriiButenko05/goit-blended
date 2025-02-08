@@ -701,6 +701,10 @@ button {
 .customers-clients-section {
 }
 .customers-clients-hero {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343d;
 }
 .customers-clients-list {
 }
@@ -715,14 +719,37 @@ button {
 .customers-product-section {
 }
 .customers-product-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
 }
 .customers-product-list {
 }
 .customers-product-list-item {
 }
 .customers-product-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* line-height: 33px; */
+  line-height: 137%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #22343d;
 }
 .customers-product-list-item-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* line-height: 33px; */
+  line-height: 137%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #22343d;
 }
 
 /* #endregion Product*/
@@ -731,6 +758,11 @@ button {
 .customers-work-section {
 }
 .customers-work-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
 }
 .customers-work-list {
 }
@@ -739,12 +771,34 @@ button {
 .customers-work-list-img {
 }
 .customers-work-list-text-step {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #22343d;
 }
 .customers-work-list-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #22343d;
 }
 .customers-work-list-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  color: #22343d;
 }
 .customers-work-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
 }
 
 /* #endregion Work*/
@@ -753,6 +807,11 @@ button {
 .customers-join-section {
 }
 .customers-join-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
 }
 .customers-join-list {
 }
@@ -761,12 +820,34 @@ button {
 .customers-join-list-item-img {
 }
 .customers-join-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+
+  /* line-height: 28px; */
+  line-height: 117%;
+  color: #000;
 }
 .customers-join-list-item-ul {
 }
 .customers-join-list-item-ul-li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  /* line-height: 32px; */
+  line-height: 178%;
+  text-align: center;
+  color: #22343d;
 }
-.custoemrs-join-button {
+.custoemrs-join-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  color: #000;
 }
 /* #endregion Join*/
 
