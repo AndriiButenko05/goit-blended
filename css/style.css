@@ -867,26 +867,24 @@ button {
 .price-section {
 }
 .price-pricing-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
 }
 .price-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #22343d;
 }
 .price-text {
-}
-.price-list {
-}
-.price-list-item {
-}
-.price-list-item-heading {
-}
-.price-list-item-text {
-}
-.price-list-item-month {
-}
-.price-list-item-ul {
-}
-.price-list-item-ul-li {
-}
-.price-list-item-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343d;
 }
 /* #endregion Price*/
 
@@ -894,12 +892,29 @@ button {
 .pricing-enterprise {
 }
 .pricing-enterprise-heading-enterprise {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
 }
 .pricing-enterprise-headnig {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
 }
 .pricing-enterprise-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
 }
 .pricing-enterprise-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
 }
 
 /* #endregion Enterprise*/
@@ -908,16 +923,34 @@ button {
 .pricing-used-section {
 }
 .pricing-used-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
 }
 .pricing-used-img {
+  width: 528px;
+  height: 392px;
 }
 .pricing-used-list {
 }
 .pricing-used-list-item {
 }
 .pricing-used-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #22343d;
 }
 .pricing-used-list-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  color: #22343d;
 }
 
 /* #endregion Used*/
@@ -926,6 +959,10 @@ button {
 .pricing-question {
 }
 .pricing-question-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
 }
 .pricing-question-text {
 }
@@ -934,20 +971,16 @@ button {
 .pricing-question-list-item {
 }
 .pricing-question-list-item-questions {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #22343d;
 }
 .pricing-question-list-item-answer {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343d;
 }
 
 /* #endregion Question*/
-
-/* #region Promo*/
-.pricing-promo {
-}
-.pricing-promo-heading {
-}
-.pricing-promo-button {
-}
-.pricing-promo-img {
-}
-
-/* #endregion Promo*/
