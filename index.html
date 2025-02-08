@@ -10,7 +10,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Buisness promotion</title>
   </head>
   <body>
@@ -22,7 +29,7 @@
         >
         <ul class="header-nav-list">
           <li class="header-nav-list-item">
-            <a href="./index.html" class="header-nav-list-link">Product</a>
+            <a href="./index.html" class="header-nav-list-link"><b>Product</b></a>
           </li>
           <li class="header-nav-list-item">
             <a href="./pricing.html" class="header-nav-list-link">Pricing</a>
@@ -40,7 +47,7 @@
           <button type="button" class="header-buttons-list-btn">Sing in</button>
         </li>
         <li class="header-buttons-list-item">
-          <button type="button" class="header-buttons-list-btn">Sing up</button>
+          <button type="button" class="header-buttons-list-btn-sign-up">Sing up</button>
         </li>
       </ul>
     </header>
@@ -56,10 +63,10 @@
         </p>
         <ul class="hero-buttons">
           <li class="hero-buttons-list">
-            <button type="button" class="hero-buttons-btn">Get started</button>
+            <button type="button" class="hero-buttons-btn-get-started">Get started</button>
           </li>
           <li class="hero-buttons-list">
-            <button type="button" class="hero-buttons-btn">Watch the Video</button>
+            <button type="button" class="hero-buttons-btn-watch">Watch the Video</button>
           </li>
         </ul>
         <img src="images/hero-img.png" alt="people" width="610" height="555" class="hero-img" />
@@ -95,7 +102,9 @@
 
       <!-- #region Sect3 -->
       <section class="management-section">
-        <h2 class="management-heading">Effortless Validation for Management</h2>
+        <h2 class="management-heading">
+          <span class="management-heading-span">Effortless Validation for</span> Management
+        </h2>
         <p class="management-text">
           The Myspace page defines the individual, his or her characteristics, traits, personal
           choices and the overall personality of the person.
@@ -128,7 +137,9 @@
 
       <!-- #region Sect4 -->
       <section class="support-section">
-        <h2 class="support-heading">Easier decision making for Customer Support</h2>
+        <h2 class="support-heading">
+          <span class="support-heading-span">Easier decision making for</span> Customer Support
+        </h2>
         <p class="support-text">
           The Myspace page defines the individual, his or her characteristics, traits, personal
           choices and the overall personality of the person.
@@ -154,7 +165,9 @@
 
       <!-- #region Sect5 -->
       <section class="collaboration-section">
-        <h2 class="collaboration-heading">Optimisation for Collaborative</h2>
+        <h2 class="collaboration-heading">
+          <span class="collaboration-heading-span">Optimisation for</span> Collaborative
+        </h2>
         <p class="collaboration-text">
           Few would argue that, despite the advancements of feminism over the past three decades,
           women still face a double standard when it comes to their behavior.
@@ -280,7 +293,11 @@
           <li class="price-list-item">
             <h3 class="price-list-item-heading">Free</h3>
             <p class="price-list-item-text">Brief price description</p>
-            <p class="price-list-item-month">0 $ Per / month</p>
+            <p class="price-list-item-month">
+              <span class="price-list-item-month-number">0</span>
+              <span class="price-list-item-month-dollar">$</span>
+              <span class="price-list-item-month-per">Per / month</span>
+            </p>
             <ul class="price-list-item-ul">
               <li class="price-list-item-ul-li">Only 2 Operators</li>
               <li class="price-list-item-ul-li">Notifications</li>
@@ -288,21 +305,29 @@
               <button type="button" class="price-list-item-button">Order Now</button>
             </ul>
           </li>
-          <li class="price-list-item">
-            <h3 class="price-list-item-heading">Standard</h3>
-            <p class="price-list-item-text">Brief price description</p>
-            <p class="price-list-item-month">5 $ Per / month</p>
-            <ul class="price-list-item-ul">
-              <li class="price-list-item-ul-li">5+ Operators</li>
-              <li class="price-list-item-ul-li">Notifications</li>
-              <li class="price-list-item-ul-li">Landing Pages</li>
+          <li class="price-list-item-middle">
+            <h3 class="price-list-item-heading-middle">Standard</h3>
+            <p class="price-list-item-text-middle">Brief price description</p>
+            <p class="price-list-item-month-middle">
+              <span class="price-list-item-month-number-five">5</span>
+              <span class="price-list-item-month-dollar-middle">$</span>
+              <span class="price-list-item-month-per">Per / month</span>
+            </p>
+            <ul class="price-list-item-ul-middle">
+              <li class="price-list-item-ul-li-middle">5+ Operators</li>
+              <li class="price-list-item-ul-li-middle">Notifications</li>
+              <li class="price-list-item-ul-li-middle">Landing Pages</li>
             </ul>
-            <button type="button" class="price-list-item-button">Order Now</button>
+            <button type="button" class="price-list-item-button-middle">Order Now</button>
           </li>
           <li class="price-list-item">
             <h3 class="price-list-item-heading">Premium</h3>
             <p class="price-list-item-text">Brief price description</p>
-            <p class="price-list-item-month">10 $ Per / month</p>
+            <p class="price-list-item-month">
+              <span class="price-list-item-month-number">10</span>
+              <span class="price-list-item-month-dollar">$</span>
+              <span class="price-list-item-month-per">Per / month</span>
+            </p>
             <ul class="price-list-item-ul">
               <li class="price-list-item-ul-li">10+ Operators</li>
               <li class="price-list-item-ul-li">Notifications</li>
@@ -318,8 +343,8 @@
       <section class="clients-section">
         <h2 class="clients-heading">What Clients Say</h2>
         <p class="clients-text">
-          Problems trying to resolve the conflict between the two major realms of Classical physics:
-          Newtonian mechanics
+          Problems trying to resolve the conflict between <br />
+          the two major realms of Classical physics: Newtonian mechanics
         </p>
         <ul class="clients-list">
           <li class="clients-list-item">
@@ -397,7 +422,7 @@
     <!-- #region footer -->
     <footer class="footer">
       <nav class="footer-nav">
-        <a href="./index.html"
+        <a href="./index.html" class="footer-nav-link"
           ><img src="images/logo.png" alt="logo" class="footer-link" /> Product</a
         >
         <ul class="footer-list">
@@ -417,6 +442,11 @@
               <li class="footer-list-item-ul-li">Financing</li>
               <li class="footer-list-item-ul-li">Privacy Policy</li>
             </ul>
+          </li>
+          <li>
+            <h3 class="footer-list-item-heading">
+              knowhing you're always on the best energy deal.
+            </h3>
           </li>
         </ul>
       </nav>

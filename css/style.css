@@ -1,3 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
 /* Index HTML */
 /* #region Header */
 .header {
@@ -5,6 +19,13 @@
 .header-nav {
 }
 .header-nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+
+  /* line-height: 28px; */
+  line-height: 93%;
+  color: #173a56;
 }
 .header-nav-img {
 }
@@ -13,12 +34,31 @@
 .header-nav-list-item {
 }
 .header-nav-list-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  color: #22343d;
 }
 .header-buttons {
 }
 .header-buttons-list-item {
 }
 .header-buttons-list-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+}
+.header-buttons-list-btn-sign-up {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
 }
 /* #endregion Header*/
 
@@ -26,14 +66,42 @@
 .hero-section {
 }
 .hero {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+
+  /* line-height: 60px; */
+  line-height: 150%;
+  color: #22343d;
 }
 .hero-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  /* line-height: 28px; */
+  line-height: 156%;
+  color: #22343d;
 }
 .hero-buttons {
 }
 .hero-buttons-list {
 }
-.hero-buttons-btn {
+.hero-buttons-btn-get-started {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
+}
+.hero-buttons-btn-watch {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  background-color: #fff;
 }
 .hero-img {
 }
@@ -43,16 +111,37 @@
 .product-section {
 }
 .product-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
 }
 .product-list {
 }
 .product-list-item {
 }
 .product-list-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
 }
 .product-list-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .product-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
 }
 
 /* #endregion Sect2*/
@@ -61,16 +150,47 @@
 .management-section {
 }
 .management-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.management-heading-span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
 }
 .management-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .management-list {
 }
 .management-list-item {
 }
 .management-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .management-list-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .management-img {
 }
@@ -81,12 +201,36 @@
 .support-section {
 }
 .support-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.support-heading-span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
 }
 .support-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .support-list {
 }
 .support-list-item {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .support-img {
 }
@@ -96,16 +240,47 @@
 .collaboration-section {
 }
 .collaboration-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.collaboration-heading-span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
 }
 .collaboration-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .collaboration-list {
 }
 .collaboration-list-item {
 }
 .collaboration-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .collaboration-list-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .collaboration-img {
 }
@@ -115,18 +290,44 @@
 .process-section {
 }
 .process-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
 }
 .process-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  text-align: center;
+  color: #22343d;
 }
 .process-list {
 }
 .process-list-item {
 }
 .process-list-img {
+  border-radius: 100%;
+  stroke-width: 2px;
+  stroke: #ff0909;
 }
 .process-list-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #2f281e;
 }
 .process-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #02897a;
 }
 /* #endregion Sect6*/
 
@@ -134,8 +335,19 @@
 .strategy-section {
 }
 .strategy-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
 }
 .strategy-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 26px; */
+  line-height: 162%;
+  color: #22343d;
 }
 .strategy-list {
 }
@@ -144,10 +356,25 @@
 .strategy-list-item-img {
 }
 .strategy-list-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  color: #22343d;
 }
 .strategy-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* line-height: 40px; */
+  line-height: 167%;
+  color: #22343d;
 }
 .strategy-list-span {
+  color: #02897a;
 }
 /* #endregion Sect7*/
 
@@ -155,24 +382,165 @@
 .price-section {
 }
 .price-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
 }
 .price-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
 }
 .price-list {
 }
 .price-list-item {
 }
 .price-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* line-height: 40px; */
+  line-height: 167%;
+  color: #22343d;
 }
 .price-list-item-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 40px; */
+  line-height: 250%;
+  color: #22343d;
 }
 .price-list-item-month {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 19px; */
+  line-height: 119%;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+.price-list-item-month-dollar {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* line-height: 30px; */
+  line-height: 125%;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+.price-list-item-month-number {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+
+  /* line-height: 100px; */
+  line-height: 132%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
 }
 .price-list-item-ul {
 }
+.price-list-item-middle {
+  background: #02897a;
+}
+.price-list-item-middle {
+  color: #fff;
+}
+.price-list-item-heading-middle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* line-height: 40px; */
+  line-height: 167%;
+  color: #fff;
+}
+.price-list-item-text-middle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 40px; */
+  line-height: 250%;
+  color: #fff;
+}
+.price-list-item-month-middle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 19px; */
+  line-height: 119%;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+}
+.price-list-item-month-number-five {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+
+  /* line-height: 100px; */
+  line-height: 132%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.price-list-item-month-dollar-middle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* line-height: 30px; */
+  line-height: 125%;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.price-list-item-ul-middle {
+  color: #fff;
+}
+.price-list-item-ul-li-middle {
+  color: #fff;
+}
+.price-list-item-button-middle {
+  background-color: #fff;
+  color: #02897a;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #02897a;
+}
 .price-list-item-ul-li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 22px; */
+  line-height: 137%;
+  letter-spacing: 0.01em;
+  color: #22343d;
 }
 .price-list-item-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
+}
+.price-list-item-month-per {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
 }
 /* #endregion Sect8*/
 
@@ -180,8 +548,26 @@
 .clients-section {
 }
 .clients-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+
+  /* line-height: 57px; */
+  line-height: 178%;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  text-align: center;
 }
 .clients-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
 }
 .clients-list {
 }
@@ -190,26 +576,72 @@
 .clients-list-item-stars {
 }
 .clients-list-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
 }
 .clients-list-item-photo {
+  border-radius: 100%;
+  stroke-width: 1px;
+  stroke: #bdbdbd;
 }
 .clients-list-item-creator {
 }
 .clients-list-item-span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #02897a;
 }
 .clients-list-item-designer-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+
+  /* line-height: 24px; */
+  line-height: 171%;
+  letter-spacing: 0.01em;
+  color: #252b42;
 }
 
 /* #endregion Sect9*/
 
 /* #region Sect10*/
 .graphics-section {
+  background-color: #02897a;
 }
 .graphics-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+
+  /* line-height: 48px; */
+  line-height: 151%;
+  color: #fff;
 }
 .graphics-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
 }
 .graphics-img {
+  width: 351px;
+  height: 331px;
 }
 /* #endregion Sect10*/
 
@@ -218,6 +650,15 @@
 }
 .footer-nav {
 }
+.footer-nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+
+  /* line-height: 28px; */
+  line-height: 93%;
+  color: #173a56;
+}
 .footer-link {
 }
 .footer-list {
@@ -225,12 +666,33 @@
 .footer-list-item {
 }
 .footer-list-item-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 30px; */
+  line-height: 150%;
+  color: #22343d;
 }
 .footer-list-item-ul {
 }
 .footer-list-item-ul-li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 35px; */
+  line-height: 219%;
+  color: #22343d;
 }
 .rights-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 30px; */
+  line-height: 187%;
+  color: #22343d;
 }
 /* #endregion Footer*/
 
