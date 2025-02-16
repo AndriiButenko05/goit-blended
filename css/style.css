@@ -4,6 +4,8 @@ body {
 }
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -11,6 +13,29 @@ a {
 button {
   border: none;
   cursor: pointer;
+  font-family: inherit;
+}
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  /* width: 100%; */
+  height: auto;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 /* Index HTML */
 /* #region Header */
@@ -339,19 +364,23 @@ button {
   font-weight: 700;
   font-size: 34px;
   color: #22343d;
+  margin-bottom: 10px;
 }
 .strategy-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 26px; */
   line-height: 162%;
   color: #22343d;
+  margin-bottom: 40px;
+  max-width: 465px;
 }
 .strategy-list {
+  display: flex;
+  gap: 30px;
 }
 .strategy-list-item {
+  flex-basis: calc((100% - 60) / 3);
 }
 .strategy-list-item-img {
 }
@@ -359,17 +388,16 @@ button {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 28px; */
   line-height: 175%;
   color: #22343d;
+  width: 350px;
+  margin-bottom: 12px;
+  margin-top: 24px;
 }
 .strategy-list-item-heading {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 24px;
-
-  /* line-height: 40px; */
   line-height: 167%;
   color: #22343d;
 }
@@ -380,47 +408,61 @@ button {
 
 /* #region Sect8*/
 .price-section {
+  padding-top: 85px;
+  padding-bottom: 50px;
 }
 .price-heading {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 34px;
   color: #22343d;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .price-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #22343d;
+  text-align: center;
+  margin-bottom: 40px;
 }
 .price-list {
+  display: flex;
+  gap: 72px;
 }
 .price-list-item {
+  text-align: center;
+  padding: 32px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  width: calc((100% - 144px) / 3);
 }
 .price-list-item-heading {
+  margin-bottom: 8px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 24px;
-
-  /* line-height: 40px; */
   line-height: 167%;
   color: #22343d;
 }
 .price-list-item-text {
+  margin-bottom: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 40px; */
   line-height: 250%;
   color: #22343d;
+}
+.price-item-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .price-list-item-month {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 19px; */
   line-height: 119%;
   letter-spacing: 0.01em;
   color: #afafaf;
@@ -429,8 +471,6 @@ button {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 24px;
-
-  /* line-height: 30px; */
   line-height: 125%;
   letter-spacing: 0em;
   color: #02897a;
@@ -439,27 +479,27 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 76px;
-
-  /* line-height: 100px; */
   line-height: 132%;
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
+  margin-right: 7px;
 }
 .price-list-item-ul {
 }
 .price-list-item-middle {
   background: #02897a;
-}
-.price-list-item-middle {
+  text-align: center;
+  padding: 32px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  width: calc((100% - 144px) / 3);
   color: #fff;
 }
 .price-list-item-heading-middle {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
-
-  /* line-height: 40px; */
   line-height: 167%;
   color: #fff;
 }
@@ -467,8 +507,6 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 40px; */
   line-height: 250%;
   color: #fff;
 }
@@ -476,8 +514,6 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 19px; */
   line-height: 119%;
   letter-spacing: 0.01em;
   color: #e0e0e0;
@@ -486,8 +522,6 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 76px;
-
-  /* line-height: 100px; */
   line-height: 132%;
   letter-spacing: 0em;
   text-align: center;
@@ -497,8 +531,6 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
-
-  /* line-height: 30px; */
   line-height: 125%;
   letter-spacing: 0em;
   color: #fff;
@@ -521,8 +553,6 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 22px; */
   line-height: 137%;
   letter-spacing: 0.01em;
   color: #22343d;
