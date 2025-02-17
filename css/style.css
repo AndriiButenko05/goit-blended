@@ -358,6 +358,8 @@ h6 {
 
 /* #region Sect7*/
 .strategy-section {
+  padding-top: 50px;
+  padding-bottom: 85px;
 }
 .strategy-heading {
   font-family: 'Poppins', sans-serif;
@@ -381,8 +383,11 @@ h6 {
 }
 .strategy-list-item {
   flex-basis: calc((100% - 60) / 3);
+  border: 1px solid #dedede;
+  border-radius: 8px;
 }
 .strategy-list-item-img {
+  margin-bottom: 12px;
 }
 .strategy-list-item-text {
   font-family: 'Poppins', sans-serif;
@@ -390,9 +395,10 @@ h6 {
   font-size: 16px;
   line-height: 175%;
   color: #22343d;
-  width: 350px;
+  display: inline;
   margin-bottom: 12px;
-  margin-top: 24px;
+
+  margin-left: 24px;
 }
 .strategy-list-item-heading {
   font-family: 'Poppins', sans-serif;
@@ -400,6 +406,8 @@ h6 {
   font-size: 24px;
   line-height: 167%;
   color: #22343d;
+  padding: 0 27px 33px 27px;
+  margin-top: 12px;
 }
 .strategy-list-span {
   color: #02897a;
